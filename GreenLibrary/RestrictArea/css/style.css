@@ -1,0 +1,127 @@
+*{
+    font-family: 'Poppins';
+    
+    
+  }
+  .left-bar{
+    width: 25vh;
+    text-align: center;
+    border-right-width: 0.3vh;
+    height: 100vh;
+    border-right-style: solid;
+    border-right-color: #000;
+    position: fixed;
+  }
+  
+  .btnPost{
+    background-color: #52B788;
+    border: none;
+    color: #fff;
+    
+  }
+  .card{
+    display: block;
+    width: 120vh;
+    border-radius: 15px;
+  }
+  .yourProfile{
+    font-size: 3vh;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+  }
+  .logout a img{
+    margin-top: 55vh;
+    /* transition: .8s; */
+    -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  }
+  .logout a img:hover{
+    /* transform: translateY(-5px); */
+    animation-name: bounce;
+  -moz-animation-name: bounce;
+    
+  }
+  @keyframes bounce {
+    0%, 100%, 20%, 50%, 80% {
+      -webkit-transform: translateX(0);
+      -ms-transform:     translateX(0);
+      transform:         translateX(0)
+    }
+    40% {
+      -webkit-transform: translateX(-15px);
+      -ms-transform:     translateX(-15px);
+      transform:         translateX(-15px)
+    }
+    60% {
+      -webkit-transform: translateX(15px);
+      -ms-transform:     translateX(15px);
+      transform:         translateX(15px)
+    }
+    
+  }
+  .card-photo{
+    padding: 0;
+    width: 8vh;
+    margin: 3vh 5vh;
+  }
+  .btn{
+    margin: 1vh;
+  }
+  #input-cadastro{
+    resize: none;
+    width: 93vh;
+    height: 15vh;
+  }
+  .input-form{
+    font-family: 'Poppins';
+      margin-bottom: 20px;
+      outline: none;
+      width: 100%;
+      background-color: rgb(239, 239, 239);
+      border: none;
+      border-radius: 15px;
+      transition: 0.4s;
+  }
+  
+  #icone-input{
+      margin-bottom: 20px;
+      background-color: rgb(239, 239, 239);
+      border: none;
+  }
+
+  #btnPost{
+    border-color: #52B788;
+    border-radius: 5px;
+    border-width: 0.4vh;
+    border-radius: 15px;
+    padding: 10px;
+    width: 17vh;
+    transition: .8s;
+
+}
+#btnPost:hover{
+    -webkit-box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.41); 
+    box-shadow: 5px 5px 15px 0px rgba(0,0,0,0.41);
+    background-color: #52B788;
+    color: #fff;
+}
+
+.select-box{
+    border-radius: 30px;
+    width: 22vh;
+    height: 5vh;
+    color: #52B788;
+    border-color: #52B788;
+}
+
+
+
+  
+  
